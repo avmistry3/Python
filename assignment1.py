@@ -1,11 +1,15 @@
 """Write a Python program to read the names from the attached file and
 then print the names sorted in alphabetical order.  """
-
+print("This program sorts and prints names in an array in 2 different ways")
 file_path = '/Users/archana/Desktop/Devops/GCP_Data_engineer/GCP-2023/python/assignment1.dat'
 # read file
 file_read = open(file_path, "r")
 # sort in alphabetical order and print
 sortfile = sorted(file_read)
+print("+++++++++++++++++++++++++++++++++")
+print("Names in sorted order (method # 1)")
+print("+++++++++++++++++++++++++++++++++")
+print()
 for names in sortfile:
        print(names.strip())
 print("___________________")
@@ -37,6 +41,11 @@ def read_file(filename):
         with open(filename, 'r') as readfile1:
            sort_content = sorted(readfile1)
            print("\nSorted Content:")
+           print("+++++++++++++++++++++++++++++++++")
+           print("Names in sorted order (method # 2 using function)")
+           print("+++++++++++++++++++++++++++++++++")
+           print()
+
            for lines in sort_content:
              print(lines.strip())
     except IOError:
@@ -46,4 +55,3 @@ if __name__ == '__main__':
     filename = file_path
 
     read_file(filename)
-
