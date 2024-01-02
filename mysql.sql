@@ -50,3 +50,5 @@ CREATE TABLE employee(
  emp_ph_work(10)
  )
 
+show tables;
+desc employee;
