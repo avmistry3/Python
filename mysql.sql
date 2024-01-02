@@ -1,7 +1,8 @@
 --connect to cloud SQL instance
 --gcloud sql connect archana --user=root
-
+create databases HR;
 show databases;
+use HR;
 
 --create tables
 
