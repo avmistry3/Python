@@ -86,7 +86,7 @@ INSERT INTO email( emp_id,email_1,email_2)
 	SELECT * from email;
 	SELECT * from phone;
 	
-	CREATE TABLE emp(
+ CREATE TABLE emp(
   emp_id INTEGER(11) NOT NULL,
   first_name VARCHAR(15),
   last_name VARCHAR(20),
@@ -95,17 +95,17 @@ INSERT INTO email( emp_id,email_1,email_2)
   );
 
 
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("1","Paresh","Yadav","1","10");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("2","Gita","Yadav","2","20");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("3","Poonam","Sharma","2","30");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("4","Bhakti","Patel","3","40");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("5","Maunee","Patel","1","40");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("6","Archana","Mistry","4","50");
-INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
+ INSERT INTO emp ( emp_id,first_name,last_name,dept_id,salary)
     VALUES ("7","Raunakraj","Patel","5","60");
